@@ -6,15 +6,16 @@
 // import Carousel from '../components/services/plcSoftware/Carousel.js'
 // import FAQ from '../components/FAQ.js'
 
-// export default function PlcSoftwareDevelopment() {
-//     return (
-//         <Layout>
-//             <PlcTop />
-//             <PlcProgramming />
-//             <Inbox />
-//             <Consultant />
-//             <Carousel/>
-//             <FAQ/>
-//         </Layout>
-//     )
-// }
+export default function PlcSoftwareDevelopment() {
+    return (
+        <h1>This page is commented out</h1>
+        // <Layout>
+        //     <PlcTop />
+        //     <PlcProgramming />
+        //     <Inbox />
+        //     <Consultant />
+        //     <Carousel/>
+        //     <FAQ/>
+        // </Layout>
+    )
+}
