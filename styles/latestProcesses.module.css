@@ -1,0 +1,136 @@
+.inbox {
+  padding: 50px 10px;
+  background: url("../public//images/Background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.inboxInner {
+  display: flex;
+  flex-direction: column;
+}
+
+.inboxLeft,
+.inboxRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inboxLeft {
+  margin-bottom: 40px;
+}
+
+.inboxHeading {
+  color: #fec739;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  
+  margin-bottom: 18px;
+}
+
+.inboxPara {
+  font-size: 14px;
+  color: #ddd;
+  font-weight: 400;
+  text-align: center;
+  max-width: 478px;
+}
+
+.inboxEmail {
+  padding: 10px 10px;
+  width: 100%;
+  max-width: 309px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 18px;
+}
+
+.inboxEmail:focus {
+  outline: none;
+}
+
+.downloadBtn {
+    background-color: white;
+    padding: 10px 30px;
+    font-weight: 700;
+    color: #123857;
+    font-size: 14px;
+    border: none;
+    display: block;
+    border-radius: 3px;
+    cursor: pointer;
+    /* Button */
+  
+    background: linear-gradient(
+      93.53deg,
+      #fcfdfd 0.27%,
+      #e4eaef 57.89%,
+      #d2dce4 100%
+    );
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 1s;
+}
+
+.downloadBtn:hover {
+    padding: 10px 30px;
+    background: linear-gradient(94deg, #479ADD 0.27%, #123857 100%);
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+@media (min-width: 768px) {
+  .inboxRight {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .inboxEmail {
+    margin-right: 12px;
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 1101px) {
+  .inbox {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .inboxLeft {
+    margin-bottom: 0px;
+    align-items: start;
+  }
+
+  .inboxHeading {
+    font-size: 32px;
+    margin-bottom: 14px;
+  }
+
+  .inboxPara {
+    font-size: 16px;
+  }
+
+  .inboxInner {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1270px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inboxHeading,
+  .inboxPara {
+    text-align: left;
+  }
+
+  .inboxEmail {
+    width: 309px;
+  }
+}

@@ -1,0 +1,86 @@
+.cardsMain {
+    background: url('../../public/images/BackgroundGrey.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 40px;
+    padding: 50px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.card1 {
+    width: 100%;
+    max-width: 378px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardImage  {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 378px;
+}
+
+.cardData {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    padding: 16px;
+}
+
+.cardHeading {
+    font-size: 21px;
+    margin-bottom: 16px;
+}
+
+.cardDateTime {
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+@media (min-width: 800px) {
+    .cards {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        column-gap: 40px;
+        grid-template-columns: auto auto;
+    }
+}
+
+
+@media (min-width: 1101px) {
+    .cardHeading {
+        font-size: 23px;
+    }
+
+    .cardDateTime {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .cards {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (min-width: 1600px) {
+    .card1 {
+        max-width: 430px;
+    }
+
+    .cardImage  {
+        max-width: 430px;
+    }
+}

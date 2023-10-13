@@ -1,0 +1,1286 @@
+.fade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 2000px;
+}
+
+.fadeAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  max-width: 2000px;
+}
+
+.fadeWhy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1800px;
+}
+
+.fadeContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+.btnTop {
+  display: block;
+  position: fixed;
+  bottom: 100px;
+  right: 25px;
+  z-index: 100;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #cda274;
+  color: white;
+  cursor: pointer;
+  padding: 15px 15px 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 rgba(205, 162, 116, 0.5);
+  animation: pulse 1.5s infinite;
+  -webkit-animation: pulse 1.5s infinite;
+  -moz-animation: pulse 1.5s infinite;
+}
+
+.BtnTop:hover {
+  background-color: #fff;
+  animation: none;
+  -webkit-animation: none;
+  -moz-animation: none;
+}
+
+.btnTopHid {
+  display: none;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+  }
+  70% {
+    transform: (scale(1));
+    box-shadow: 0 0 0 50px rgba(205, 162, 116, 0);
+  }
+  100% {
+    transform: (scale(0.9));
+    box-shadow: 0 0 0 0 rgba(205, 162, 116, 0);
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.9);
+  }
+  70% {
+    -webkit-transform: (scale(1));
+    box-shadow: 0 0 0 50px rgba(205, 162, 116, 0);
+  }
+  100% {
+    -webkit-transform: (scale(0.9));
+    box-shadow: 0 0 0 0 rgba(205, 162, 116, 0);
+  }
+}
+
+@-moz-keyframes pulse {
+  0% {
+    -moz-transform: scale(0.9);
+  }
+  70% {
+    -moz-transform: (scale(1));
+    box-shadow: 0 0 0 50px rgba(205, 162, 116, 0);
+  }
+  100% {
+    -moz-transform: (scale(0.9));
+    box-shadow: 0 0 0 0 rgba(205, 162, 116, 0);
+  }
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/images/domotica/hero1.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: repeat;
+  /* position: relative; */
+  height: 90vh;
+  gap: 50px;
+  width: 100%;
+}
+
+.bannerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 200px;
+  gap: 20px;
+  width: 70%;
+}
+
+.bannerText h2 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 104%;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.bannerText span {
+  color: #cda274 !important;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.bannerText h3 {
+  color: #cda274;
+  font-weight: 400;
+  font-size: 24px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.bannerText p {
+  color: #fff;
+  font-size: 27px;
+  line-height: 150%;
+  /* margin: 0; */
+  /* -webkit-text-stroke: 0.5px black; */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.about {
+  background: #272727;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutContent {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3%;
+  margin: 100px;
+}
+
+.aboutContent div {
+  width: 100%;
+}
+
+.aboutContent h2 {
+  font-size: 42px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.aboutContent span {
+  color: #cda274;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.aboutContent p {
+  font-size: 24px;
+  /* font-weight: 600; */
+  line-height: 2;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.about img {
+  width: 100%;
+  /* height: 500px; */
+  border-radius: 30px;
+  box-shadow: 0 2px 20px #000;
+  /* max-width: 500px; */
+}
+
+.why {
+  background: hsla(31, 47%, 63%, 0.5);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whyContent {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3%;
+  margin: 100px;
+}
+
+.why div {
+  width: 90%;
+}
+
+.whyContent h1{
+  font-size: 42px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: black;
+}
+
+.whyContent span {
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.whyContent p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 2;
+  color: black;
+}
+
+.whyContent img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  box-shadow: 0 2px 20px #000;
+}
+
+.services {
+  background: #272727;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicesContent {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+  margin: 100px;
+}
+
+.servicesContent div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 33%;
+  width: 100%;
+  gap: 3%;
+}
+
+.servicesText {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.servicesText h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 38px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  border-left: 2px solid #cda274;
+  padding-left: 18px;
+}
+
+.servicesText h3 {
+  font-size: 18px;
+  color: #cda274;
+  font-weight: 400;
+  padding-bottom: 15px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  border-left: 2px solid #cda274;
+  padding-left: 18px;
+}
+
+.servicesText span {
+  color: #cda274;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.servicesText p {
+  padding: 20px 0px 15px 0;
+  color: #888;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.servicesBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #594c3e;
+  padding: 70px 30px 0px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 91% 100%, 0% 100%);
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  height: 200px;
+  overflow: hidden;
+}
+
+.servicesBox:before {
+  position: absolute;
+  z-index: 3;
+  content: "";
+  right: 5px;
+  bottom: -25px;
+  width: 1px;
+  height: 100px;
+  background: #594c3e;
+  transform: rotate(48deg);
+}
+
+.servicesBox h3 {
+  font-size: 20px;
+  color: #fff;
+  padding: 17px 0 15px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  transition: 0.5s;
+}
+
+.servicesBox p {
+  color: #999999;
+  opacity: 0;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+}
+
+.servicesBox span {
+  margin: 0 0 22px;
+  color: #999999;
+  transition: 0.5s;
+  opacity: 0;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.servicesBox:hover h3 {
+  margin-top: -30px;
+}
+
+.servicesBox:hover p {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.servicesBox:hover img {
+  transition: 0.5s;
+  transform: translateY(-100px);
+}
+
+.servicesBox:hover {
+  border: 1px solid #cda274;
+  padding: 20px 30px 50px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 91% 100%, 0% 100%);
+}
+
+.servicesBox:hover:before {
+  background: #cda274;
+  display: none;
+}
+
+.contact {
+  background: url("/images/domotica/counter-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 150px 0px 50px 0px;
+}
+
+.contactContent {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contactInfo {
+  background: #cda274;
+  padding: 30px 30px 10px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.contactInfo h2 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.contactInfo h3 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contactInfo p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.contactInfo img {
+  filter: invert(100);
+  /* border-radius: 50px; */
+}
+
+.contactInfo div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  margin: 15px 0px;
+  height: 100px;
+}
+
+.contactBlock {
+  /* background: url("/assets-domo/images/contact-bg.webp"); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 38px 48px 50px;
+  width: 100%;
+  max-width: 900px;
+}
+.contactBlock h2 {
+  font-size: 32px;
+  padding: 0px 0 30px;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.contactBlock span {
+  color: #cda274;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.contactForm {
+  /* background: url("/assets-domo/images/contact-bg.webp"); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5%;
+}
+
+.contactForm div {
+  width: 100%;
+}
+
+.formBox input {
+  float: right;
+  height: 54px;
+  background-color: #fff;
+  border-color: transparent;
+  transition: 0.5s;
+  border: 1px solid #e6e6e6;
+  box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+  padding: 6px 20px;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  color: #00132b;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  z-index: 1;
+}
+
+.formBoxS input {
+  float: right;
+  height: 54px;
+  background-color: #fff;
+  border-color: transparent;
+  transition: 0.5s;
+  border: 1px solid #e6e6e6;
+  box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+  padding: 6px 20px;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  color: #00132b;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  z-index: 1;
+}
+
+.formBox textarea {
+  font-size: 16px;
+  height: 140px;
+  width: 100%;
+  padding: 15px 22px 0px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+}
+
+.formBox button {
+  width: 10rem;
+  margin-right: 15px;
+  background-color: #cda274;
+  border-color: #fff;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.formBox i {
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  right: 35px;
+  top: 18px;
+  font-size: 14px;
+}
+
+.formBox textarea:focus,
+.formBox input:focus,
+.formBoxS textarea:focus,
+.formBoxS input:focus {
+  outline: none;
+  outline: none;
+  border: none;
+}
+
+.send {
+  background-color: #cda274;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  transition: 0.5s;
+  width: 20%;
+  padding: 10px 20px;
+  min-width: 100px;
+  margin-top: 20px;
+  box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+}
+
+.send:focus {
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+/* @media (max-width: 2400px) {
+} */
+/* @media (max-width: 1920px) {
+} */
+@media (max-width: 1200px) {
+  .bannerText h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 104%;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .bannerText span {
+    color: #cda274 !important;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .bannerText h3 {
+    color: #cda274;
+    font-weight: 400;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .bannerText p {
+    color: #fff;
+    font-size: 30px;
+    line-height: 150%;
+    /* margin: 0; */
+    /* -webkit-text-stroke: 0.5px black; */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .aboutContent h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .aboutContent span {
+    color: #cda274;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .aboutContent p {
+    font-size: 16px;
+    /* font-weight: 600; */
+    line-height: 2;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .whyContent h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: black;
+  }
+
+  .whyContent span {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .whyContent p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    color: black;
+  }
+
+  .servicesContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+    margin: 50px;
+  }
+
+  .servicesContent div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 100%;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 3%;
+  }
+
+  .servicesText h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    border-left: 2px solid #cda274;
+    padding-left: 18px;
+  }
+
+  .servicesText h3 {
+    font-size: 20px;
+    color: #cda274;
+    font-weight: 400;
+    padding-bottom: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    border-left: 2px solid #cda274;
+    padding-left: 18px;
+    width: 275px;
+  }
+
+  .servicesText span {
+    color: #cda274;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .servicesText p {
+    padding: 16px 0px 15px 0;
+    color: #888;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .servicesBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid #594c3e;
+    padding: 0px 0px 0px 0px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 91% 100%, 0% 100%);
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    height: 200px;
+    /* overflow: hidden; */
+  }
+
+  .servicesBox:before {
+    position: absolute;
+    z-index: 3;
+    content: "";
+    right: 5px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 91% 100%, 0% 100%);
+    bottom: -25px;
+    width: 1px;
+    height: 100px;
+    background: #594c3e;
+    transform: rotate(48deg);
+  }
+
+  .servicesBox:hover h3 {
+    margin-top: -30px;
+  }
+
+  .servicesBox:hover p {
+    transition: 0.5s;
+    opacity: 1;
+  }
+
+  .servicesBox:hover img {
+    transition: 0.5s;
+    transform: translateY(-100px);
+  }
+
+  .servicesBox:hover {
+    border: 1px solid #cda274;
+    padding: 0px 20px 45px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 91% 100%, 0% 100%);
+  }
+
+  .servicesBox:hover:before {
+    background: #cda274;
+    display: none;
+  }
+
+  .servicesBox h3 {
+    font-size: 20px;
+    color: #fff;
+    /* padding: 17px 0 15px; */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+  }
+
+  .servicesBox p {
+    color: #999999;
+    opacity: 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+  }
+
+  .servicesBox span {
+    margin: 0 0 22px;
+    color: #999999;
+    transition: 0.5s;
+    opacity: 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .contactContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact {
+    background: url("/images/domotica/counter-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+  }
+
+  .contactInfo {
+    background: #cda274;
+    padding: 30px 30px 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  .contactBlock {
+    /* background: url("/assets-domo/images/contact-bg.webp"); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 38px 48px 50px;
+    width: 80%;
+  }
+
+  .contactBlock h2 {
+    font-size: 30px;
+    padding: 0px 0 30px;
+    color: black;
+    text-shadow: none;
+  }
+
+  .send {
+    background-color: #cda274;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    transition: 0.5s;
+    width: 100%;
+    padding: 10px 20px;
+    min-width: 100px;
+    margin-top: 20px;
+    box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+  }
+
+  .send:focus {
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+}
+@media (max-width: 992px) {
+  .aboutContent {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3%;
+    margin: 100px;
+  }
+
+  .whyContent {
+    flex-direction: column;
+  }
+
+  .whyContent {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3%;
+    margin: 100px;
+  }
+
+  .why div {
+    width: 100%;
+  }
+
+  .whyContent p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    color: black;
+    margin-bottom: 30px;
+  }
+
+  .servicesContent {
+    margin: 20px;
+  }
+
+  .servicesBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #594c3e;
+    padding: 0px 0px 0px 0px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 91% 100%, 0% 100%);
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .servicesBox:hover h3 {
+    margin-top: -30px;
+  }
+
+  .servicesBox:hover p {
+    transition: 0.5s;
+    opacity: 1;
+  }
+
+  .servicesBox:hover img {
+    transition: 0.5s;
+    transform: translateY(-100px);
+  }
+
+  .servicesBox:hover {
+    border: 1px solid #cda274;
+    padding: 0px 10px 45px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 91% 100%, 0% 100%);
+  }
+
+  .servicesBox:hover:before {
+    background: #cda274;
+    display: none;
+  }
+
+  .contactBlock {
+    /* background: url("/assets-domo/images/contact-bg.webp"); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 38px 48px 50px;
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  .contactBlock {
+    /* background: url("/assets-domo/images/contact-bg.webp"); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 38px 48px 50px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .bannerText h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 104%;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .bannerText span {
+    color: #cda274 !important;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .bannerText h3 {
+    color: #cda274;
+    font-weight: 400;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .bannerText p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 150%;
+    /* margin: 0; */
+    /* -webkit-text-stroke: 0.5px black; */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .about {
+    background: #272727;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3%;
+    margin: 30px;
+  }
+
+  .aboutContent h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .aboutContent span {
+    color: #cda274;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .aboutContent p {
+    font-size: 16px;
+    /* font-weight: 600; */
+    line-height: 2;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .whyContent h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: black;
+  }
+
+  .whyContent {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3%;
+    margin: 30px;
+  }
+
+  .whyContent span {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .whyContent p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    color: black;
+  }
+
+  .servicesContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3%;
+    margin: 20px;
+  }
+
+  .servicesContent div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 100%;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 3%;
+  }
+
+  .servicesText h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    border-left: 2px solid #cda274;
+    padding-left: 18px;
+  }
+
+  .servicesText h3 {
+    font-size: 20px;
+    color: #cda274;
+    font-weight: 400;
+    padding-bottom: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    border-left: 2px solid #cda274;
+    padding-left: 18px;
+    width: 275px;
+  }
+
+  .servicesText span {
+    color: #cda274;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .servicesText p {
+    padding: 16px 0px 15px 0;
+    color: #888;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .servicesBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #594c3e;
+    padding: 0px 10px 0px 10px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 91% 100%, 0% 100%);
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    height: 270px;
+    overflow: hidden;
+  }
+
+  .servicesBox:hover h3 {
+    text-align: center;
+    margin-top: -30px;
+  }
+
+  .servicesBox:hover p {
+    transition: 0.5s;
+    opacity: 1;
+  }
+
+  .servicesBox:hover img {
+    transition: 0.5s;
+    transform: translateY(-100px);
+  }
+
+  .servicesBox:hover {
+    border: 1px solid #cda274;
+    padding: 0px 20px 45px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 91% 100%, 0% 100%);
+  }
+
+  .servicesBox:hover:before {
+    background: #cda274;
+    display: none;
+  }
+
+  .servicesBox h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    /* padding: 17px 0 15px; */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+  }
+
+  .servicesBox p {
+    color: #999999;
+    opacity: 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+  }
+
+  .servicesBox span {
+    margin: 0 0 22px;
+    color: #999999;
+    transition: 0.5s;
+    opacity: 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .contactContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact {
+    background: url("/images/domotica/counter-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+  }
+
+  .contactInfo {
+    background: #cda274;
+    padding: 30px 30px 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+  }
+
+  .contactInfo img {
+    filter: invert(100);
+    /* border-radius: 50px; */
+    width: 30px;
+    height: 30px;
+  }
+
+  .contactBlock {
+    /* background: url("/assets-domo/images/contact-bg.webp"); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 100px 0px 50px;
+    width: 90%;
+  }
+
+  .contactBlock h2 {
+    font-size: 30px;
+    padding: 0px 0 30px;
+    color: black;
+    text-shadow: none;
+  }
+
+  .send {
+    background-color: #cda274;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    transition: 0.5s;
+    width: 100%;
+    padding: 10px 20px;
+    min-width: 100px;
+    margin-top: 20px;
+    box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -5px 10px 25px -9px rgba(0, 0, 0, 0.5);
+  }
+
+  .send:focus {
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+  }
+}

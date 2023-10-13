@@ -1,0 +1,210 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 5px 10px #aaaaaa;
+  border-radius: 50px;
+  z-index: 100;
+  transition: 0.5s;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  right: 20px;
+  width: calc(100% - 40px);
+  min-width: 900px;
+  padding: 10px 20px;
+  /* gap: 15%; */
+  transition: all 0.5s;
+  height: 70px;
+  /* max-width: 2000px; */
+  /* align-self: center; */
+}
+
+.brand {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15%;
+  min-width: 200px;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.brand:hover {
+  color: #cda274;
+  transition: all 0.5s;
+}
+
+.logo {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.hamburgerIcon {
+  display: none;
+}
+
+.menu {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  width: 100%;
+  font-size: 16px;
+  min-width: 200px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.menuOpen {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  width: 100%;
+  font-size: 16px;
+  min-width: 200px;
+}
+
+.menu a:hover {
+  color: #cda274;
+  transition: all 0.5s;
+}
+
+.menuOpen a:hover {
+  color: black;
+  transition: all 0.5s;
+}
+
+.buttonLink {
+}
+
+.contactButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #cda274;
+  border: 1px solid white;
+  width: 150px;
+  padding: 5px 20px;
+  color: white;
+  font-size: 18px;
+}
+
+.contactButton:hover {
+  background-color: #ffffff;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/* @media (max-width:2400px){
+
+} */
+/* @media (max-width:1920px){
+  
+} */
+/* @media (max-width:1200px){
+  
+} */
+@media (max-width: 992px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cda274;
+    box-shadow: 0px 5px 10px #aaaaaa;
+    border-radius: 0;
+    z-index: 100;
+    transition: 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-width: 0px;
+    padding: 15px 20px;
+    gap: 0%;
+    transition: all 0.5s;
+  }
+
+  .brand:hover {
+    color: black;
+  }
+
+  .contactButton {
+    display: none;
+  }
+
+  .buttonLink {
+    display: none;
+  }
+
+  .hamburgerIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .menu {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    background-color: #cda274;
+    color: white;
+    font-size: 20px;
+    gap: 30px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 1s, visibility 1s, height 0.5s;
+    transition: opacity 1s, visibility 1s, height 0.5s;
+    /* transition: visibility 1s ease; */
+  }
+
+  .menuOpen {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    height: 420%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    background-color: #cda274;
+    color: white;
+    font-size: 20px;
+    gap: 30px;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity 1s, visibility 1s, height 0.5s;
+    transition: opacity 1s, visibility 1s, height 0.5s;
+    /* transition: visibility 1s ease; */
+    min-width: 0px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+
+  .menuOpen a:hover {
+    color: black;
+    transition: all 0.5s;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}

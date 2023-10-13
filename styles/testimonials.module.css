@@ -1,0 +1,130 @@
+/* Testimonials */
+
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  .testimonial div{
+    width: 100%;
+  }
+
+  .testimonial p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+  }
+
+  .testimonial h2{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--yellow);
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .testimonial h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+  }
+
+.dots {
+  margin-top: 40px;
+  padding: 0px;
+  text-align: center;
+}
+
+.dots li {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 3px;
+  padding: 0;
+}
+
+.dots li button {
+  border: none;
+  background: var(--yellow);
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 12px;
+  width: 1px;
+  border-radius: 7.5px;
+}
+
+.dots :global(li.slick-active) button {
+  background-color: white
+}
+
+.dots li button:hover,
+.dots li button:focus {
+  background: white;
+  outline: 0;
+}
+
+.dots img {
+  border: 5px solid #fff;
+  display: block;
+  margin: auto;
+}
+
+  /* .slick-list,
+.slick-slider,
+.slick-track {
+  background-color: white;
+}
+
+.slider-div {
+  background-color: #000000;
+  color: #f9a8d2;
+  z-index: 10;
+} */
+
+/* 
+@media (max-width:2400px){
+
+}
+@media (max-width:1920px){
+  
+} */
+@media (max-width:1200px){
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+  }
+}
+@media (max-width:992px){
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+}
+@media (max-width:768px){
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+}
+@media (max-width:576px){
+  
+}
+

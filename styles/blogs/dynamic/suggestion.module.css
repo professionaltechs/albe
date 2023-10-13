@@ -1,0 +1,125 @@
+.readMore {
+    background: url('../../../public/images/BackgroundGrey.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 10px;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 40px;
+    padding: 50px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.card1 {
+    width: 100%;
+    max-width: 378px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardImage  {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 378px;
+}
+
+.cardData {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    padding: 16px;
+}
+
+.cardHeading {
+    font-size: 21px;
+    margin-bottom: 16px;
+}
+
+.cardDateTime {
+    display: flex;
+    font-size: 13px;
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+.readMoreHeading {
+    color: 164062;
+    font-weight: 700;
+    font-size: 28px;
+    position: relative;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.readMoreHeading::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -16px;
+    width: 40%;
+    height: 4px;
+    background-color: #FEC739;
+}
+
+
+
+@media (min-width: 800px) {
+    .cards {
+        padding-top: 110px;
+        padding-bottom: 105px;
+        column-gap: 40px;
+        grid-template-columns: auto auto;
+    }
+}
+
+
+@media (min-width: 1101px) {
+    .readMore  {
+        padding-top: 114px;
+        padding-bottom: 81px;
+    }
+
+
+    .cardHeading {
+        font-size: 23px;
+    }
+
+    .cardDateTime {
+        font-size: 14px;
+    }
+
+    .readMoreHeading {
+        font-size: 32px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .cards {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (min-width: 1600px) {
+    .card1 {
+        max-width: 430px;
+    }
+
+    .cardImage  {
+        max-width: 430px;
+    }
+}
+
+

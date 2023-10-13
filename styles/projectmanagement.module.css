@@ -1,0 +1,322 @@
+.fade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  color: var(--yellow);
+  font-size: 60px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 60px;
+}
+
+.service {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.testimonialSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/Background.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0px 50px 0px;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/BackgroundGrey.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0px 50px 0px;
+}
+
+.faq span {
+  color: black;
+  font-size: 60px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 60px;
+}
+
+.faq > div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+  /* height: 100%; */
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: -2px 4px 41px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 1500px;
+}
+.faq > div > div{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.faq h3 {
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+}
+
+.faqArrow {
+  color: var(--yellow);
+  min-width: 35px;
+  max-width: 35px;
+  cursor: pointer;
+}
+
+.faqOpen {
+  display: flex;
+  color: gray;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  margin: 10px 0px;
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 1s, visibility 1s, height 0.5s;
+  transition: opacity 1s, visibility 1s, height 0.5s;
+}
+
+.faqClosed {
+  display: flex;
+  color: gray;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  margin: 10px 0px;
+  height: 0px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 1s, visibility 1s, height 0.5s;
+  transition: opacity 0.3s, visibility 0.3s, height 0.5s;
+}
+
+.buttonAnchor {
+  margin: 20px 0px 20px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  outline: none;
+  padding: 10px 20px;
+  background: none;
+  border: 1px solid gray;
+}
+
+.buttonAnchor:hover {
+  margin: 20px 0px 20px 0px;
+  background-color: var(--blue2);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  outline: none;
+  padding: 10px 20px;
+  color: var(--yellow);
+  border: 1px solid gray;
+  transition: all 0.5s;
+}
+
+@media (max-width: 2400px) {
+}
+@media (max-width: 1920px) {
+}
+@media (max-width: 1500px) {
+}
+/* @media (max-width:1200px){
+    
+  } */
+@media (max-width: 992px) {
+  .title {
+    text-align: center;
+  }
+
+  .faq span {
+    color: black;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 60px;
+    line-height: 160%;
+  }
+  .faq h3 {
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .faqOpen {
+    display: flex;
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    margin: 10px 0px;
+    /* height: 200px; */
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity 1s, visibility 1s, height 0.5s;
+    transition: opacity 1s, visibility 1s, height 0.5s;
+  }
+
+  .faq > div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: -2px 4px 41px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 1500px;
+  }
+}
+@media (max-width: 768px) {
+  .faq h3 {
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .bannerTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  .projectsYears {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 556px) {
+  .service {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .title {
+    line-height: 130%;
+    font-size: 50px;
+  }
+
+  .bannerTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  .projectsYears {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 60px;
+    gap: 5%;
+  }
+
+  .faq h3 {
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px 15px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .faqOpen {
+    display: flex;
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    margin: 10px 0px;
+    /* height: 300px; */
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity 1s, visibility 1s, height 0.5s;
+    transition: opacity 1s, visibility 1s, height 0.5s;
+  }
+
+  .faqClosed {
+    display: flex;
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    margin: 10px 0px;
+    height: 0px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 1s, visibility 1s, height 0.5s;
+    transition: opacity 0.3s, visibility 0.3s, height 0.5s;
+  }
+}

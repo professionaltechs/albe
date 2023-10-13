@@ -1,0 +1,179 @@
+.plcProgrammingMain {
+    padding: 80px 10px 50px 10px;
+    background-image: url('../../../public/images/BackgroundGrey.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.plcProgramming {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.black {
+    width: 100%;
+    height: auto;
+    max-width: 578px;
+    margin-bottom: 40px;
+}
+
+.logoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 49px;
+    height: 49px;
+}
+
+.plcProgrammingHeading {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+    /* margin-bottom: 12px; */
+}
+
+.plcProgrammingQuestion {
+    font-size: 14px;
+    color: #4F4F4F;
+    margin-bottom: 20px;
+}
+
+.itsTeam {
+    font-size: 14px;
+    color: #4F4F4F;
+    margin-bottom: 20px;
+}
+
+.plcProgrammingPara {
+    font-size: 14px;
+    color: #4F4F4F;
+    margin-bottom: 32px;
+    max-width: 635px;
+}
+
+.contactUsBtn {
+    padding: 10px 30px;
+    background: linear-gradient(94deg, #479ADD 0.27%, #123857 100%);
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contactUsBtn:hover{
+    background-color: white;
+    padding: 10px 30px;
+    border: none;
+    color: #123857;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    /* Button */
+  
+    background: linear-gradient(
+      93.53deg,
+      #fcfdfd 0.27%,
+      #e4eaef 57.89%,
+      #d2dce4 100%
+    );
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 1s; 
+}
+
+.divTrustFrame {
+    width:  80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .trustFrame {
+    height: 500px;
+    width: 100%;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 50px #000;
+    margin-right: 50px;
+  }
+
+@media (min-width: 1100px) {
+    .plcProgrammingMain {
+        padding-top: 130px;
+        padding-bottom: 88px;
+    }
+
+    .plcProgrammingHeading {
+        font-size: 32px;
+    }
+
+    .plcProgrammingQuestion {
+        font-size: 16px;
+    }
+    
+    .itsTeam {
+        font-size: 16px;
+    }
+
+    .plcProgrammingPara {
+        font-size: 16px;
+    }
+
+    .plcProgramming {
+        text-align: left;
+        flex-direction: row;
+        max-width: 1270px;
+        margin-left: auto;
+        margin-right: auto;
+        /* padding-top: 130px;
+        padding-bottom: 88px; */
+    }
+
+    .black {
+        height: auto;
+        width: 50%;
+        max-width: 578px;
+        margin-right: 100px;
+    }
+
+    .plcProgrammingData {
+        width: 50%;
+    }
+
+    .black {
+        margin-bottom: 0px;
+    }
+
+    .plcProgrammingHeading {
+        margin-bottom: 8px;
+    }
+
+    .logoDiv {
+        justify-content: start;
+        margin-bottom: 12px;
+    }
+
+    .logo {
+        width: 89px;
+        height: 89px;
+    }
+
+    .plcProgrammingQuestion {
+        font-size: 16px;
+    }
+
+    .plcProgrammingQuestion, .itsTeam, .plcProgrammingPara  {
+        font-size: 16px;
+    }
+
+    .plcProgrammingPara {
+        max-width: none;
+    }
+}

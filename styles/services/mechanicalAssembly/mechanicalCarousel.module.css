@@ -1,0 +1,194 @@
+.carouselBg {
+    background: url('../../../public//images//BackgroundGrey.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel {
+    padding-bottom: 110px;
+}
+
+.partnersHeading {
+    color: #164062;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.yellowRow {
+    border: #FEC739 2px solid;
+    opacity: 1;
+    width: 40px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carouselInner {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.carouselImage {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carouselExample {
+    position: relative;
+}
+
+.carouselControl {
+    color: white    ;
+    border: none;
+    padding: 10px;
+    font-size: 40px;
+    background: linear-gradient(94deg, #479ADD 0.27%, #123857 100%);
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    top: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 20;
+    transition: all 1s;
+}
+
+.carouselControl:hover{
+    color: #123857;
+    border: none;
+    padding: 10px;
+    font-size: 40px;
+    background: linear-gradient(
+        93.53deg,
+        #fcfdfd 0.27%,
+        #e4eaef 57.89%,
+        #d2dce4 100%
+      );
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    top: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 20;
+    transition: all 1s;
+}
+
+.carouselItem {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 377px;
+}
+
+.carouselInnerImage {
+    width: 100%;
+    max-height: 450px;
+    max-width: 377px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.scienceLogo {
+    width: 100%;
+    display: block;
+    height: auto;
+    max-width: 210px;
+    margin-bottom: 20px;
+}
+
+.carouselInnerData > p {
+    color: #4F4F4F;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+.foodAndBeverage {
+    font-size: 28px;
+    color: #FEC739;
+    font-weight: 600;
+}
+
+.learnMore {
+    display: flex;
+    align-items: center;
+    color: #164062;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.rightLogo {
+    margin-left: 5px;
+}
+
+
+@media (max-width: 530px) {
+
+    .carouselInnerImage,
+    .scienceLogo {
+        width: 90%;
+        width: 90%;
+    }
+
+    .scienceLogo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carouselItem {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1001px) {
+    .carousel {
+        max-width: 1270px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .partnersHeading {
+        font-size: 48px;
+    }
+
+    .carouselInnerImage {
+        margin-bottom: 0px;
+    }
+
+    .carouselInnerData p {
+        font-size: 18px;
+    }
+
+    .carouselItem  {
+        flex-direction: row-reverse;
+        max-width: none;
+    }
+
+    .carouselInnerImage {
+        min-width: 377px;
+        margin-left: 72px;
+    }
+
+    .foodAndBeverage {
+        font-size: 32px;
+    }
+    
+    .learnMore {
+        font-size: 18px;
+     
+    }
+
+    .carouselInnerData > p {
+        max-width: 900px;
+    }
+
+}

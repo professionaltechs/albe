@@ -1,0 +1,504 @@
+.fade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  color: var(--yellow);
+  font-size: 60px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 60px;
+}
+
+.about {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/Background.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  min-height: 450px;
+  padding: 120px 0px;
+}
+
+.bannerTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bannerTitle h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  width: 50%;
+}
+
+.aboutsCardsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/BackgroundGrey.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0px 50px 0px;
+}
+
+.aboutsCards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5%;
+  width: 80%;
+  height: 600px;
+  margin-bottom: 60px;
+  max-width: 1500px;
+}
+
+.aboutsCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0px 0px;
+  box-shadow: -2px 4px 41px 2px rgba(0, 0, 0, 0.36);
+  border-radius: 10px;
+}
+
+.aboutsCardImg {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 5px solid var(--yellow);
+}
+
+.aboutCardText {
+  text-align: center;
+  padding: 0px 30px;
+}
+
+.aboutCardText h2 {
+  color: var(--blue2);
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 40px;
+  padding: 0px;
+}
+
+.aboutCardText p {
+  color: gray;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
+  /* text-align: justify; */
+  text-justify: distribute-all-lines;
+}
+
+.ctaSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/Background.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 80%;
+  max-width: 1500px;
+  height: 100%;
+  padding: 100px 0px;
+  border-radius: 25px;
+}
+
+.ctaSection h2 {
+  color: var(--yellow);
+  font-size: 50px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 60px;
+}
+
+.ctaSection p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  width: 70%;
+}
+
+.buttonAnchor {
+  margin: 40px 0px 20px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  outline: none;
+  padding: 15px 50px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+}
+
+.buttonAnchor:hover {
+  margin: 40px 0px 20px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  outline: none;
+  padding: 15px 50px;
+  background-color: white;
+  transition: all 0.5s;
+}
+
+/* @media (max-width:2400px){
+
+}
+@media (max-width:1920px){
+  
+}
+@media (max-width:1500px){
+} */
+/* @media (max-width:1200px){
+  
+} */
+@media (max-width: 994px) {
+  .bannerTitle h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 80%;
+  }
+
+  .aboutsCards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5%;
+    width: 90%;
+    height: 550px;
+    margin-bottom: 60px;
+    max-width: 1500px;
+  }
+
+  .aboutsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 0px;
+    box-shadow: -2px 4px 41px 2px rgba(0, 0, 0, 0.36);
+    border-radius: 10px;
+  }
+
+  .aboutCardText h2 {
+    color: var(--blue2);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    padding: 0px;
+  }
+
+  .aboutsCardImg {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 5px solid var(--yellow);
+  }
+
+  .aboutCardText {
+    text-align: center;
+    padding: 0px 20px;
+  }
+
+  .aboutCardText h2 {
+    color: var(--blue2);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    padding: 0px;
+  }
+
+  .aboutCardText p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    /* text-align: justify; */
+    text-justify: distribute-all-lines;
+  }
+
+  .ctaSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/Background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 90%;
+    max-width: 1500px;
+    height: 100%;
+    padding: 100px 0px;
+    border-radius: 25px;
+  }
+
+  .ctaSection h2 {
+    color: var(--yellow);
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 60px;
+  }
+
+  .ctaSection p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .about {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .title {
+    line-height: 130%;
+    font-size: 50px;
+  }
+
+  .bannerTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .aboutsCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 60px;
+    max-width: 1500px;
+  }
+
+  .aboutsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90%;
+    height: 100%;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 0px;
+    padding-bottom: 20px;
+    box-shadow: -2px 4px 41px 2px rgba(0, 0, 0, 0.36);
+    border-radius: 10px;
+  }
+
+  .aboutCardText h2 {
+    color: var(--blue2);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    padding: 0px;
+  }
+
+  .aboutsCardImg {
+    width: 100%;
+    height: 100%;
+    height: 400px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 5px solid var(--yellow);
+  }
+
+  .aboutCardText p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    /* text-align: justify; */
+    text-justify: distribute-all-lines;
+  }
+}
+
+@media (max-width: 556px) {
+  .about {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .title {
+    line-height: 130%;
+    font-size: 50px;
+  }
+
+  .bannerTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  .bannerTitle h2 {
+    width: 100%;
+  }
+
+  .aboutsCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+    height: 100%;
+    margin-bottom: 60px;
+    max-width: 1500px;
+  }
+
+  .aboutsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 0px;
+    padding-bottom: 20px;
+    box-shadow: -2px 4px 41px 2px rgba(0, 0, 0, 0.36);
+    border-radius: 10px;
+  }
+
+  .aboutsCardImg {
+    width: 100%;
+    height: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 5px solid var(--yellow);
+  }
+
+  .aboutCardText p {
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    /* text-align: justify; */
+    text-justify: distribute-all-lines;
+  }
+
+  .ctaSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/Background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 80%;
+    max-width: 1500px;
+    height: 100%;
+    padding: 100px 0px;
+    border-radius: 25px;
+  }
+
+  .ctaSection h2 {
+    color: var(--yellow);
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 60px;
+    width: 95%;
+    line-height: 125%;
+    text-align: center;
+  }
+
+  .ctaSection p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 80%;
+  }
+}
